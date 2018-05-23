@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.john.projeto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cadastrar" />
+        <activity android:name=".EsqueceuSenha" />
+        <activity
+            android:name=".Inicio"
+            android:label="@string/title_activity_mapa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".EditarPerfil" />
+        <activity android:name=".MeusLocais" />
+        <activity android:name=".MeusComentarios" />
+        <activity android:name=".CadastrarLocal" />
+        <activity android:name=".EditarLocal" />
+        <activity android:name=".CadastrarComentario" />
+        <activity android:name=".EditarComentario" />
+        <activity android:name=".VisualizarLocal" />
+        <activity android:name=".VisualizarComentario" />
+        <activity android:name=".VisualizarUsuario" />
+        <activity android:name=".PerfilAdmin" />
+        <activity android:name=".TodosUsuarios"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeusComentarios">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edPesquisar"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btCadastrar"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="53dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/edPesquisar"
+            android:layout_marginEnd="26dp"
+            android:text="Buscar" />
+
+        <TextView
+            android:id="@+id/tvComentario01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="146dp"
+            android:text="Comentário 01"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvComentario02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="189dp"
+            android:text="Comentário 02"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvComentario03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="231dp"
+            android:text="Comentário 03"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvComentario04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="214dp"
+            android:text="Comentário 04"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvComentario05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="173dp"
+            android:text="Comentário 05"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="87dp"
+            android:text="Cadastrar" />
+
+        <Button
+            android:id="@+id/btVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp"
+            android:text="Voltar" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
